@@ -100,6 +100,8 @@ class SiteController extends Controller
 
     public function actionTest()
     {
-        echo time();die;
+        \Testaaa::say();
+
+        return $this->render('test');
     }
 }

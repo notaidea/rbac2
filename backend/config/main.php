@@ -12,13 +12,12 @@ return [
     'controllerNamespace' => 'backend\controllers',
     'bootstrap' => ['log'],
     'modules' => [],
-    //as access,access可以随便填?
     "as access" => [
         "class" => 'common\AccessControl',
         "freeUrls" => [
             "site/login",
             "site/logout",
-            //"site/index",
+            "site/index",
             //"node/test",
         ],
 //        "freeControllers" => [
