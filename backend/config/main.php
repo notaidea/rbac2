@@ -12,18 +12,18 @@ return [
     'controllerNamespace' => 'backend\controllers',
     'bootstrap' => ['log'],
     'modules' => [],
-    "as access" => [
-        "class" => 'common\AccessControl',
-        "freeUrls" => [
-            "site/login",
-            "site/logout",
-            "site/index",
-            //"node/test",
-        ],
-//        "freeControllers" => [
-//            "site"
+//    "as access" => [
+//        "class" => 'common\AccessControl',
+//        "freeUrls" => [
+//            "site/login",
+//            "site/logout",
+//            "site/index",
+//            //"node/test",
 //        ],
-    ],
+////        "freeControllers" => [
+////            "site"
+////        ],
+//    ],
     'components' => [
         'request' => [
             'csrfParam' => '_csrf-backend',
